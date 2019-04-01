@@ -17,9 +17,9 @@ cp vulners.nse /usr/share/nmap/scripts/
 echo 'Creating vulscanner command...'
 git clone https://github.com/10100011010/VulnScanner_Bash.git
 cd VulnScanner_Bash
-chmod +x vulnscanner
-cp vulnscanner /bin/vulnscanner
+chmod +x vulnscan
+cp vulnscan /bin/vulnscan
 
 # Inform the user
 echo -e '\nAll done!\n'
-echo -e 'Use:\nvulnscanner <domain>'
+echo -e 'Use:\nvulnscan <domain>'
